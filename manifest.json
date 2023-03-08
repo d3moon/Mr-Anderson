@@ -1,0 +1,146 @@
+{
+    "manifest_version": 3,
+    "name": "Mr. Anderson",
+    "description": "This is a theme for matrix lovers and hackerman",
+    "version": "1.2",
+    "icons":
+    {
+        "512": "matrix.png"
+    },
+    "developer":
+    {
+        "name": "D3moon"
+    },
+    "mod":
+    {
+        "schema_version": 1,
+        "payload":
+        {
+            "wallpaper":
+            {
+                "dark":
+                {
+                    "image": "wallpaper/matrix.jpg"
+                }
+               
+            },
+            "background_music": 
+              [
+                "music/matrix1.mp3"
+              ],
+            "keyboard_sounds":
+            {
+                "TYPING_LETTER":
+                [
+                    "sounds/keyboard1.mp3"
+                ],
+                "TYPING_ENTER":
+                [
+                    "sounds/keyboard4.mp3"
+                ],
+                "TYPING_SPACE":
+                [
+                    "sounds/keyboard3.mp3"
+                ],
+                "TYPING_BACKSPACE":
+                [
+                    "sounds/keyboard2.mp3"
+                ]
+            },
+            "browser_sounds":
+            {
+                "SWITCH_TOGGLE":
+                [
+                    "sounds/importantclick.mp3"
+                ],
+                "TAB_CLOSE":
+                [
+                    "sounds/closetab.mp3"
+                ],
+                "TAB_INSERT":
+                [
+                    "sounds/newtab.mp3"
+                ],
+                "HOVER":
+                [
+                    "sounds/hover.mp3"
+                ],
+                "HOVER_UP":
+                [
+                    "sounds/hover.mp3"
+                ],
+                "CLICK":
+                [
+                    "sounds/keyboard4.mp3"
+                ],
+                "LIMITER_ON":
+                [
+                    "sounds/featureswitchon.mp3"
+                ],
+                "LIMITER_OFF":
+                [
+                    "sounds/featureswitchoff.mp3"
+                ],
+                "IMPORTANT_CLICK":
+                [
+                    "sounds/importantclick.mp3"
+                ],
+                "FEATURE_SWITCH_ON":
+                [
+                    "sounds/featureswitchon.mp3"
+                ],
+                "FEATURE_SWITCH_OFF":
+                [
+                    "sounds/featureswitchoff.mp3"
+                ],
+                "LEVEL_UPGRADE":
+                [
+                    "sounds/newtab.mp3"
+                ],
+                "TAB_SLASH":
+                [
+                    "sounds/closetab.mp3"
+                ]
+            },
+            "theme":
+            {
+                "dark":
+                {
+                    "gx_accent":
+                    {
+                        "h": 96,
+                        "s": 78,
+                        "l": 51
+                    },
+                    "gx_secondary_base":
+                    {
+                        "h": 0,
+                        "s": 0,
+                        "l": 0
+                    }
+                },
+   "light":
+                {
+                    "gx_accent":
+                    {
+                        "h": 96,
+                        "s": 78,
+                        "l": 51
+                    },
+                    "gx_secondary_base":
+                    {
+                        "h": 0,
+                        "s": 0,
+                        "l": 0
+                    }
+                }
+            },
+          
+            "shaders":
+            {
+                "8-Bit": "shaders/calm.txt",
+                "8-Bitter": "shaders/intense.txt"
+            }
+        }
+    }
+}
